@@ -1,0 +1,8 @@
+# Entorno virtual
+venv
+
+# CRÍTICOS
+config.py
+
+# Archivos basura
+__pycache__
