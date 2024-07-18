@@ -13,10 +13,10 @@ Este será el panel principal donde se encontrarán los componentes principales 
 - Vistas
 - Acciones de las vistas
 
-El más importante es el de vistas, donde habrá cada un conjunto de entradas, listas, desplegables y otros componentes para ir añadiendo información a la aplicación, tales como los componentes de nuestros satélites, el combustible necesario, el momento del lanzamiento... Es el que contiene la mayor parte de la interactividad con la agencia. El menu de vistas permite cambiar los componentes visibles para las diferentes tareas que queramos desempeñar. Algunos ejemplos de vistas que podemos ver gracias a este menú son:
+El más importante es el de vistas, donde habrá un conjunto de entradas, listas, desplegables y otros componentes para ir añadiendo información a la aplicación, tales como los componentes de nuestros satélites, el combustible necesario, el momento del lanzamiento... Es el que contiene la mayor parte de la interactividad con la agencia. El menu de vistas permite cambiar los componentes visibles para las diferentes tareas que queramos desempeñar. Algunos ejemplos de vistas que podemos ver gracias a este menú son:
 
 - Planificación de etapas
-- Diseño del cohete
+- Diseño del vehículo
 - Contratación de empleados
 - Administración de la agencia
 - Competencias / alianzas
