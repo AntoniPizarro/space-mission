@@ -7,3 +7,4 @@ config.py
 # Archivos basura
 __pycache__
 test.py
+.vscode

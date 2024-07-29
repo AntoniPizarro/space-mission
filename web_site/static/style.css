@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    height: 100vh;
+}
+
+#main-left {
+    display: grid;
+    grid-template-rows: 50px auto 100px;
+}
+
+#views-menu {
+    border: 1px solid;
+}
+
+.simple-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-option h3 {
+    text-align: center;
+    width: 200px;
+    margin: 0px 10px 0px 10px;
+    user-select: none;
+}
+
+.menu-option:hover {
+    background-color: rgb(182, 182, 182);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#views {
+    border: 1px solid;
+}
+
+#view-vehicle-design {
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 15% 15% auto;
+}
+
+#view-vehicle-design-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(75, 75, 75);
+}
+
+.design-menu-cathegory {
+    border: 1px solid white;
+    background-color: rgb(0, 27, 78);
+    border-radius: 4px;
+    height: 20px;
+    padding: 5px;
+    margin: 1px;
+    user-select: none;
+}
+
+.design-menu-cathegory:hover {
+    background-color: rgb(0, 43, 124);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.design-menu-cathegory p {
+    margin: 0;
+}
+
+#view-vehicle-design-stock {
+    border-left: 4px solid;
+    border-left-style: dotted;
+    border-right: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    background-color: rgb(97, 97, 97);
+    overflow-y: scroll;
+}
+
+.stock-item {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 50% 50%;
+    border-radius: 4px;
+    background-color: rgb(75, 75, 75);
+    width: 90%;
+    height: 100px;
+    margin: 5px;
+}
+
+.stock-item-img {
+    background-color: rgb(99, 99, 99);
+    padding: 5px;
+    margin: auto;
+    height: 60%;
+    grid-row: 1 / 3;
+    border: 3px solid rgb(143, 143, 143);
+    border-radius: 5px;
+}
+
+.stock-item-img:hover {
+    height: 65%;
+}
+
+.stock-item-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.stock-item-name {
+    margin: auto;
+    padding: 0;
+}
+
+.stock-item-details {
+    margin: auto;
+    width: 90%;
+}
+
+.stock-item-details input[type="button"] {
+    font-size: 16px;
+    height: 25px;
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.stock-item-details input[type="button"]:hover {
+    transition: 0.2s;
+    cursor: help;
+}
+
+#view-vehicle-design-editor {
+    padding: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#view-vehicle-design-editor-bg {
+    margin-top: 20px;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#view-vehicle-design-editor-bg img {
+    height: 100%;
+}
+
+#views-actions {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#main-right {
+    display: grid;
+    grid-template-rows: 50px 50px auto 100px;
+}
+
+#finances {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.stat-resource {
+    height: 100%;
+    width: 20%;
+}
+
+.stat-resource p {
+    text-align: right;
+    font-weight: bolder;
+}
+
+#current-capital {
+    color: rgb(87, 111, 247);
+}
+
+#hourly-profits {
+    color: rgb(0, 184, 61);
+}
+
+#hourly-losses {
+    color: rgb(255, 88, 88);
+}
+
+#shares {
+    color: rgb(229, 255, 0);
+}
+
+#misions-filter {
+    border: 1px solid;
+}
+
+#misions-list {
+    border: 1px solid;
+}
+
+#notifications {
+    border: 1px solid;
+}
